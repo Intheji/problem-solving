@@ -6,9 +6,9 @@ class Solution {
             int sqrt = (int) Math.sqrt(i);
 
             if (sqrt * sqrt == i) {
-                answer -= i;
+                answer -= i; 
             } else {
-                answer += i;
+                answer += i; 
             }
         }
 
