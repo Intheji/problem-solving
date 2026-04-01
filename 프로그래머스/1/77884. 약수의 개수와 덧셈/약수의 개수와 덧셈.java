@@ -5,10 +5,11 @@ class Solution {
         for (int i = left; i <= right; i++) {
             int sqrt = (int) Math.sqrt(i);
 
+            // 완전제곱수이면 약수 개수가 홀수
             if (sqrt * sqrt == i) {
-                answer -= i; 
+                answer -= i;
             } else {
-                answer += i; 
+                answer += i;
             }
         }
 
